@@ -55,6 +55,9 @@ public class TokensTest {
 		Scanner scanner = new Scanner("1 true Caralho");//Ue, como a gente ta conseguindo passar uma String? Por causa
 		//Da sobrecarga do construtor, mas o que ele vai fazer com essa String? O Scanner ele pode escanear (Scannar kkk,
 		//Agora o nome faz sentido ne?) uma String, usando um delimitador.
+		//Obs.: Tambem podemos passar um path no construtor do scanner para que ele leia um arquivo, a diferenca entre
+		//Ele e o Reader normal e que ele e mais lento para ler, pois ele realiza diversas verificacoes que voce vai ver a
+		//Seguir... Entao, so usamos o scanner caso a gente precise usar suas funcoes que serao mostradas abaixo.
 		
 		//O Delimitador padrao do Scanner e o espaco (" "), entendeu o porque daquele bug desgracado? Quando o Scanner
 		//Ve um espaco na String ele acha que ele tem que pular pra outra ;-;, por isso buga pra kraio quando a gente da
